@@ -5,7 +5,8 @@
 	"license": "MIT",
 	"scripts": {
 		"build": "rollup -c",
-		"format": "prettier \"{src/**/*.js,*.{js,json}}\" --write"
+		"format": "prettier \"{src/**/*.js,*.{js,json}}\" --write",
+		"lint": "prettier \"{src/**/*.js,*.{js,json}}\" --list-different"
 	},
 	"keywords": ["babel-plugin"],
 	"dependencies": {},
