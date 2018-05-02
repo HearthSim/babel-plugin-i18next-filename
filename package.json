@@ -2,7 +2,7 @@
 	"name": "babel-plugin-i18next-filename",
 	"version": "1.0.0",
 	"main": "dist/index.js",
-	"license": "MIT",
+	"license": "ISC",
 	"scripts": {
 		"build": "rollup -c",
 		"format": "prettier \"{src/**/*.js,*.{js,json}}\" --write",
